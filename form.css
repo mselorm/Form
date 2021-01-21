@@ -1,9 +1,72 @@
+
+
+.journey-details{
+    padding: 30px 40px;
+    width: 48%;
+    max-width: 48%;
+    background: #ffffff;
+  margin-bottom: 45px;
+    text-align: left;
+    box-sizing: border-box;
+   border: 1px solid black;
+    font-family: "Montserrat", sans-serif;
+}
+.journey-details h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txt-b{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+}
+.txt-b label{
+    display: block;
+    text-align: left;
+    color:  #3333;
+    text-transform: uppercase;
+    font-size 4px;
+
+}
+.txt-b input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#select{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.anchor-tags{
+    display: flex;
+    width: 100%;
+  
+    padding: 0 10px;
+    position: relative;
+}
+.select-tag select{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    
+}
+.next-tag a{
+   
+    width: 100%;
+   
+}
+
 .topic{
     display: flex;
 }
 .payslip{
     width: 48%;
     border: 1px solid black;
+    text-align: center;
 }
 
 
@@ -55,6 +118,7 @@ img{
 }
 .btn{
     display: flex;
+  
 }
 .pos{
     margin-left: 3.1cm;
@@ -72,3 +136,14 @@ img{
 }
 
 
+.payslip button{
+    letter-spacing: 1px;
+    padding: 14.5px;
+    font-size: 11px;
+    line-height: 1;
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: none;
+}
